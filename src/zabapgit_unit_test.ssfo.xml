@@ -8,6 +8,7 @@
    <LANGVECTOR>*</LANGVECTOR>
    <DEVCLASS></DEVCLASS>
    <VERSION>00001</VERSION>
+   <STATUS>I</STATUS>
    <FIRSTUSER>DUMMY</FIRSTUSER>
    <FIRSTDATE>2016-03-06</FIRSTDATE>
    <FIRSTTIME>19:32:31</FIRSTTIME>
@@ -143,6 +144,61 @@
     <STANDARD>X</STANDARD>
    </item>
   </INTERFACE>
+  <GTYPES>
+   <item>TYPES: BEGIN OF ty_global,</item>
+   <item abapgit-leadig-spaces="9">         global_type TYPE dats,</item>
+   <item abapgit-leadig-spaces="7">       END OF ty_global.</item>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+  </GTYPES>
+  <FCODING>
+   <item>FORM global_form.</item>
+   <item abapgit-leadig-spaces="2">  &quot;just dummy form</item>
+   <item>ENDFORM.</item>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+   <item/>
+  </FCODING>
   <sf:VARHEADER>
    <sf:item>
     <PAGEFORMAT>DINA4</PAGEFORMAT>
@@ -202,7 +258,59 @@
               <sf:PROC_CTRL>
                <sf:NODE>
                 <NODETYPE>RC</NODETYPE>
-                <sf:SUCC/>
+                <sf:SUCC>
+                 <sf:item>
+                  <sf:NODE>
+                   <NODETYPE>CO</NODETYPE>
+                   <sf:OBJ>
+                    <sf:CODE>
+                     <NAME>
+                      <INAME>CONDING</INAME>
+                     </NAME>
+                     <CAPTION>Just sample coding</CAPTION>
+                     <CODE>
+                      <item>DATA: first_client_data TYPE t000.</item>
+                      <item>SELECT SINGLE *</item>
+                      <item abapgit-leadig-spaces="7">       FROM t000</item>
+                      <item abapgit-leadig-spaces="7">       INTO first_client_data.</item>
+                      <item/>
+                      <item/>
+                      <item/>
+                      <item/>
+                      <item/>
+                      <item/>
+                      <item/>
+                      <item/>
+                      <item/>
+                      <item/>
+                      <item/>
+                      <item/>
+                      <item/>
+                      <item/>
+                      <item/>
+                      <item/>
+                      <item/>
+                      <item/>
+                      <item/>
+                      <item/>
+                      <item/>
+                      <item/>
+                     </CODE>
+                     <T_CAPTION>
+                      <item>
+                       <LANGU>E</LANGU>
+                       <FORMNAME>ZABAPGIT_UNIT_TEST</FORMNAME>
+                       <OBJTYPE>CO</OBJTYPE>
+                       <INAME>CONDING</INAME>
+                       <CAPTION>Just sample coding</CAPTION>
+                      </item>
+                     </T_CAPTION>
+                    </sf:CODE>
+                   </sf:OBJ>
+                   <sf:SUCC/>
+                  </sf:NODE>
+                 </sf:item>
+                </sf:SUCC>
                </sf:NODE>
               </sf:PROC_CTRL>
              </sf:WINDOW>
