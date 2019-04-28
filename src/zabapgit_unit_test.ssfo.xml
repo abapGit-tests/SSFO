@@ -145,8 +145,8 @@
   </INTERFACE>
   <GTYPES>
    <item>TYPES: BEGIN OF ty_global,</item>
-   <item abapgit-leadig-spaces="9">         global_type TYPE dats,</item>
-   <item abapgit-leadig-spaces="7">       END OF ty_global.</item>
+   <item>         global_type TYPE dats,</item>
+   <item>       END OF ty_global.</item>
    <item/>
    <item/>
    <item/>
@@ -173,7 +173,7 @@
   </GTYPES>
   <FCODING>
    <item>FORM global_form.</item>
-   <item abapgit-leadig-spaces="2">  &quot;just dummy form</item>
+   <item>  &quot;just dummy form</item>
    <item>ENDFORM.</item>
    <item/>
    <item/>
@@ -270,8 +270,8 @@
                      <CODE>
                       <item>DATA: first_client_data TYPE t000.</item>
                       <item>SELECT SINGLE *</item>
-                      <item abapgit-leadig-spaces="7">       FROM t000</item>
-                      <item abapgit-leadig-spaces="7">       INTO first_client_data.</item>
+                      <item>       FROM t000</item>
+                      <item>       INTO first_client_data.</item>
                       <item/>
                       <item/>
                       <item/>
