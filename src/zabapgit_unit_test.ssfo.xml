@@ -231,6 +231,13 @@
              <INAME>%PAGE1</INAME>
              <CAPTION>New Page</CAPTION>
             </item>
+            <item>
+             <LANGU>D</LANGU>
+             <FORMNAME>ZABAPGIT_UNIT_TEST</FORMNAME>
+             <OBJTYPE>PA</OBJTYPE>
+             <INAME>%PAGE1</INAME>
+             <CAPTION>Neue Seite</CAPTION>
+            </item>
            </T_CAPTION>
           </sf:PAGE>
          </sf:OBJ>
@@ -302,6 +309,20 @@
                        <OBJTYPE>CO</OBJTYPE>
                        <INAME>CONDING</INAME>
                        <CAPTION>Just sample coding</CAPTION>
+                      </item>
+                      <item>
+                       <LANGU>D</LANGU>
+                       <FORMNAME>ZABAPGIT_UNIT_TEST</FORMNAME>
+                       <OBJTYPE>CO</OBJTYPE>
+                       <INAME>CONDING</INAME>
+                       <CAPTION>Nur ein Beispiel</CAPTION>
+                      </item>
+                      <item>
+                       <LANGU>F</LANGU>
+                       <FORMNAME>ZABAPGIT_UNIT_TEST</FORMNAME>
+                       <OBJTYPE>CO</OBJTYPE>
+                       <INAME>CONDING</INAME>
+                       <CAPTION>French</CAPTION>
                       </item>
                      </T_CAPTION>
                     </sf:CODE>
