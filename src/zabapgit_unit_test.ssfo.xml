@@ -143,61 +143,8 @@
     <STANDARD>X</STANDARD>
    </item>
   </INTERFACE>
-  <GTYPES>
-   <item>TYPES: BEGIN OF ty_global,</item>
-   <item>         global_type TYPE dats,</item>
-   <item>       END OF ty_global.</item>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-  </GTYPES>
-  <FCODING>
-   <item>FORM global_form.</item>
-   <item>  &quot;just dummy form</item>
-   <item>ENDFORM.</item>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-   <item/>
-  </FCODING>
+  <GTYPES>File:gtypes</GTYPES>
+  <FCODING>File:fcoding</FCODING>
   <sf:VARHEADER>
    <sf:item>
     <PAGEFORMAT>DINA4</PAGEFORMAT>
@@ -267,34 +214,7 @@
                       <INAME>CONDING</INAME>
                      </NAME>
                      <CAPTION>Just sample coding</CAPTION>
-                     <CODE>
-                      <item>DATA: first_client_data TYPE t000.</item>
-                      <item>SELECT SINGLE *</item>
-                      <item>       FROM t000</item>
-                      <item>       INTO first_client_data.</item>
-                      <item/>
-                      <item/>
-                      <item/>
-                      <item/>
-                      <item/>
-                      <item/>
-                      <item/>
-                      <item/>
-                      <item/>
-                      <item/>
-                      <item/>
-                      <item/>
-                      <item/>
-                      <item/>
-                      <item/>
-                      <item/>
-                      <item/>
-                      <item/>
-                      <item/>
-                      <item/>
-                      <item/>
-                      <item/>
-                     </CODE>
+                     <CODE>File:03f90a2f</CODE>
                      <T_CAPTION>
                       <item>
                        <LANGU>E</LANGU>
